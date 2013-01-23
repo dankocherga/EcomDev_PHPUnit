@@ -10,7 +10,8 @@
     },
     "authors":[
         {
-            "name":"Ivan Chepurnyi"
+            "name":"Ivan Chepurnyi",
+            "email":"author@example.com"
         }
     ]
 }
