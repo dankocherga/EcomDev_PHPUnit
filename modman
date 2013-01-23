@@ -11,11 +11,11 @@ lib/Spyc                                lib/Spyc
 LOCALXML=app/etc/local.xml.phpunit; \
 if [ ! -f $PROJECT/$LOCALXML ]; then \
   cp $MODULE/$LOCALXML $PROJECT/$LOCALXML; \
-fi
+fi #
 
 # Copy phpunit.xml if it doesn't already exist
 @shell \
 PHPUNITXML=phpunit.xml.dist; \
 if [ ! -f $PROJECT/$LOCALXML ]; then \
   cp $MODULE/$PHPUNITXML $PROJECT/$PHPUNITXML; \
-fi
+fi #
