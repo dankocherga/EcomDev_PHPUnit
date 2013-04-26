@@ -1,5 +1,8 @@
 <?php
 
+require_once 'vendor/composer/ClassLoader.php';
+require_once 'vendor/autoload.php';
+
 require 'app/Mage.php';
 
 if (version_compare(PHP_VERSION, '5.3', '<')) {
